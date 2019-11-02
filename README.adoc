@@ -1,0 +1,3 @@
+= Ansible role: Install qBittorrent
+
+Designed for Ubuntu, tested on all versions from 18.04 to 19.10

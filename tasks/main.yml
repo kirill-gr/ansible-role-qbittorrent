@@ -1,0 +1,4 @@
+---
+
+- name: Install qBittorrent
+  import_tasks: qbittorrent.yml
