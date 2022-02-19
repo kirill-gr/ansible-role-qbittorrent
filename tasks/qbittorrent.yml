@@ -4,12 +4,7 @@
   apt_repository:
     repo: ppa:qbittorrent-team/qbittorrent-stable
   become: yes
-  register: qbittorrent_repo
-- name: Update repositories
-  apt:
-    update_cache: yes
-  become: yes
-  when: qbittorrent_repo.changed
+
 - name: Install qBittorrent
   apt:
     name: qbittorrent
